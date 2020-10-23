@@ -1,0 +1,60 @@
+h1 {
+    color:lightgrey;
+    background-color:white;
+    background-image:url(/home/step80/Images/legumes.jpg);
+    height: 500px;
+    }
+
+#nav {
+      padding: 0; margin: 0;
+      text-align: center;
+      font-size: 1.4em ;
+    }
+#nav li {
+      display: inline;
+      list-style: none;
+    }
+#nav a {
+      display:inline-block;
+      margin: 0 30px;
+    }
+
+.titre {
+    text-align: center;
+}    
+
+button {
+	width:110px;
+	cursor:pointer;
+	text-transform:capitalize;
+}
+
+.bouton {
+	width:200px;
+	height:200px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+  color:#555;
+  margin: 200px 80px ;
+  font-size: 1.6em ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.logos {
+    position: absolute ; right: 10% ;
+}
+
+.illustration {
+    position: absolute;
+    top: 700px;
+    left: 60%;
+}
